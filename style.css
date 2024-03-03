@@ -1,0 +1,258 @@
+body{
+    background: #F3F5FC;
+
+}
+
+.mainSection, .centerSection{
+    width: 1600px;
+    position: relative;
+    margin: 1em auto;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.infoRectangle{
+    display: grid;
+    position: absolute;
+    right: 0;
+    width: 400px;
+    height: 944px;
+    top: 0px;
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px #00000014;
+}
+
+.innerRectangle{
+    display: inline;
+    position: absolute;
+    left: 0;
+    top: 25%;
+}
+
+.textEnter{
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A3871;
+}
+
+.encriptedMessageBox{
+    border: none;
+    width: 340px;
+    height: 781px;
+    top: -200px;
+    left: 1032px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    position: absolute;
+    left: 25px;
+    color: #495057;
+
+}
+
+.guyDrawing{
+    padding: 0px 0px 0px 55px;
+    position: relative;
+    right: 20px;
+}
+
+.noMessageAlert{
+    padding: 50px;
+    position: relative;
+    right: 20px;
+}
+
+.copyButtonBox{
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+}
+
+.copyButton{
+    width: 336px;
+    height: 67px;
+    top: 885px;
+    left: 1032px;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px;
+    gap: 8px;
+    border: 1px solid #0A3871;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center; 
+    color: #0A3871;
+    cursor: pointer;
+}
+
+.copyButton:active{
+    box-shadow: inset 0 0 10px;
+}
+
+.centerSection{
+    width: fit-content;
+    display: block;
+    position: relative;
+    right: 15em;
+    top: 250%;
+}
+
+.textBox{
+    width: 100%
+}
+
+.textEnter{
+    width: 100%
+}
+
+.buttonsBox{
+    margin: 150px 0px 0px 0px;
+}
+
+.alertText{
+    height: 32px;
+    color: #495057;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.alertSign{
+    width: 16px;
+    height: 16px;
+    color: #495057;
+    opacity: 0.8;
+}
+
+.buttons{
+    display: flex;
+    gap: 16px;
+}
+
+.enctryptButton, .unenctryptButton{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    background: #0A3871;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.enctryptButton:active, .unenctryptButton:active{
+    box-shadow: inset 0 0 10px;
+}
+
+.unenctryptButton{
+    background: #D8DFE8;
+    color: #0A3871;
+}
+
+.foot{
+    background-color: #F3F5FC;
+    width: 1600px;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    margin: 10em auto;
+    border: 2px solid #56749b;
+}
+
+.foot li{
+    font-size: 18px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color:#0A3871;
+    display: block;
+    line-height: 1em;
+    padding: 0px 10px 0px 10px;
+
+}
+
+                                                        /* RESPONSIVE SCREEN 810PX */
+@media screen and (max-width:810px){
+
+.mainSection{
+    width: auto;
+    }
+
+.infoRectangle {
+    position: static;
+    width: 80%;
+    height: 350px;
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px #00000014;
+    text-align: center;
+    margin: 20px auto;
+    }
+
+.innerRectangle {
+    display: block;
+    position: static;
+    left: 0%;
+    top: 0%;
+    }
+
+.noMessageAlert{
+    position: absolute;
+    right: 30%;
+    margin: 0 auto;
+    bottom: 40%;
+    padding: 0px;
+    }
+
+.copyButtonBox{
+    position: absolute;
+    bottom: 60px;
+    right: 0em;
+    }
+
+.encriptedMessageBox{
+    width: 100%;
+    height: 100%;
+    position:static;
+    }
+
+.centerSection{
+    width: fit-content;
+    display: block;
+    position: relative;
+    top: 250%;
+    margin: 0 auto;
+    right: 0em;
+    }
+
+.buttonsBox {
+    margin: 1em 0 1em 0;
+    }
+
+.foot {
+    width: auto;
+    }
+}

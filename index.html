@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>A Encryptor </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+
+            <section class="mainSection">
+                
+                <div class="logo">
+                    <img src="imagenes/Logo.png">
+                </div>
+                
+                <div class="infoRectangle">
+                    
+                    <div class="innerRectangle">
+                        <textarea class="encriptedMessageBox"> </textarea>
+                        
+                        <div class="drawBox">
+                            <img class="guyDrawing" src="imagenes/Muñeco.jpg">
+                            <img class="noMessageAlert" src="imagenes/No message.jpg">
+                        </div>
+
+                    </div>
+                    
+                    <div class="copyButtonBox">
+                        <button class="copyButton" onclick="clipboard ();"></button>
+                    </div>
+
+                </div>
+                
+            </section>
+
+            <section class="centerSection">
+
+                <div class="textBox">
+                    <textarea class="textEnter" placeholder="Ingrese el texto aqui" rows="10" cols="30"></textarea>
+                </div>
+
+                <div class="buttonsBox">
+                    
+                        <div class="alertText">
+                            <img class="alertSign" src="imagenes/Vector.png"> Solo letras minusculas y sin acentos
+                        </div>
+                                
+                        <ul class="buttons">
+                            <li><button class="enctryptButton" onclick="enctryptButtonPush();"></button></li>
+                            <li><button class="unenctryptButton" onclick="unenctryptButtonPush();"></button></li>
+                        </ul>
+                    </div>
+                
+                
+            </section>
+
+        </main>
+
+        <footer class="foot">
+            <ul>
+                <li>Made by Martin Mielniczuk</li>
+                <li>martin.mnk@hotmail.com</li>
+            </ul>
+        </footer>  
+
+        <script src="encriptador.js"></script>
+                   
+    </body>
+</html>
