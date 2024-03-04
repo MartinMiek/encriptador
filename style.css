@@ -44,6 +44,7 @@ body{
 }
 
 .encriptedMessageBox{
+    resize: none;
     border: none;
     width: 340px;
     height: 781px;
@@ -115,6 +116,8 @@ body{
 }
 
 .textEnter{
+    resize: none;
+    border: none;
     width: 100%
 }
 
